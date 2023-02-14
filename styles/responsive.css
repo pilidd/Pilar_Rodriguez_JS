@@ -1,0 +1,45 @@
+.div-container{
+    flex-direction: column;
+}
+
+.div-list{
+    height: fit-content;
+    flex-direction: column;
+}
+
+.nav-{
+    display:none;
+}
+
+.main-browser{
+    width: fit-content;
+}
+
+.form-inline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-checkbox{
+    display: flex;    
+    flex-direction: column;
+    gap: 13px;
+    align-items: center
+}
+
+.label-checkbox{
+    margin:0;
+}
+
+.second-part{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}

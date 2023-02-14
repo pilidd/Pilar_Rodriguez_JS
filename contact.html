@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="(max-width: 767px)" href="styles/responsive.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="div-container">
+            <img src="assets/LogoAmazingEvents.png" alt="" width="100">
+            <div class="div-list">
+                <a href="index.html" class="item">Home</a>
+                <a href="future-events.html" class="item">Upcoming Events</a>
+                <a href="past-events.html" class="item">Past Events</a>
+                <a href="#" class="item active">Contact</a>
+                <a href="stats.html" class="item">Stats</a>
+            </div>
+        </div>
+        <nav class="nav-">
+
+            <a href="past-events.html"><img src="assets/menor.png" alt="" width="100"> </a>
+
+            <h3 class="text-nav">Contact us</h3>
+
+            <a href="stats.html"><img src="assets/mayor.png" alt="" width="100"> </a>
+
+        </nav>
+    </header>
+
+    <main class="main-contact">
+        <section class="main-part background-contact">
+            <form action="./show-data.html" method="get" class="form-contact">
+
+                <fieldset class="fieldset-">
+                    <label for="name">Name: </label>
+                    <input class="input- border" type="text" id="name" name="name" required>
+                </fieldset>
+                <fieldset class="fieldset-">
+                    <label for="email">Email: </label>
+                    <input class="input- border" type="email" id="email" name="email" required>
+                </fieldset>
+
+
+                <fieldset class="fieldset-"><textarea name="textarea" rows="5" cols="40"
+                        placeholder="Message"></textarea></fieldset>
+
+                <input type="submit" class="btn" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-media">
+            <a href="https://www.instagram.com"><img class="img-footer" src="assets/instagram.png" alt="" width="100px">
+            </a>
+            <a href="https://www.facebook.com"><img class="img-footer" src="assets/facebook.png" alt="" width="100px">
+            </a>
+            <a href="https://wa.me/3434468835"><img class="img-footer" src="assets/whatsapp.png" alt=""
+                    width="100px"></a>
+        </section>
+        <section class="footer-text">
+            <h4 class="text-footer">COHORT</h4>
+        </section>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
