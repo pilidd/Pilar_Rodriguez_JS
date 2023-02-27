@@ -16,29 +16,36 @@
 </head>
 
 <body>
-    <header>
-        <div class="div-container">
-            <img src="assets/LogoAmazingEvents.png" alt="" width="100">
-            <div class="div-list">
-                <a href="index.html" class="item">Home</a>
-                <a href="future-events.html" class="item">Upcoming Events</a>
-                <a href="past-events.html" class="item">Past Events</a>
-                <a href="contact.html" class="item">Contact</a>
-                <a href="#" class="item active">Stats</a>
-            </div>
+    <header class="header-corrected">
+        <div class="div-container"> 
+            <input type="checkbox" id="menu-check">
+            <label id="menu" for="menu-check">
+                <span id="open-menu">&#9776;</span>
+                <span id="close-menu">X</span>
+            </label>
+            <img src="assets/LogoAmazingEvents.png" alt="" width="100" class="img-nav-menu">
+            <nav class="nav-menu">
+                <div class="div-list">
+                    <a href="index.html" class="item">Home</a>
+                    <a href="future-events.html" class="item">Upcoming Events</a>
+                    <a href="past-events.html" class="item">Past Events</a>
+                    <a href="contact.html" class="item">Contact</a>
+                    <a href="#" class="item active">Stats</a>
+                </div>
+            </nav>
         </div>
-        <nav class="nav-">
+        <div class="nav-">
 
-            <a href="contact.html"><img src="assets/menor.png" alt="" width="100"> </a>
+            <a href="contact.html"><img src="assets/menor.png" alt="" width="80"> </a>
 
             <h3 class="text-nav">Stats</h3>
 
-            <a href="index.html"><img src="assets/mayor.png" alt="" width="100"> </a>
+            <a href="index.html"><img src="assets/mayor.png" alt="" width="80"> </a>
 
-        </nav>
+        </div>
     </header>
 
-    <main>
+    <main class="main-corrected">
         <section class="main-part">
 
 
@@ -114,7 +121,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-corrected">
         <section class="footer-media">
             <a href="https://www.instagram.com"><img class="img-footer" src="assets/instagram.png" alt="" width="100px">
             </a>

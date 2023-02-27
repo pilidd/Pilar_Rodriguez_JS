@@ -150,6 +150,32 @@ footer{
     background:#0d6efd00;
 } 
 
+
+
+.card{
+    height: 400px;
+}
+
+.card-img-top, .card-body{
+    height: 50%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text{
+    margin:0;
+}
+
+.btn-card{
+    margin: 0.5rem;
+    width: 90px !important;
+}
+
+
 /*----------------------------------------------------------     CONTACT CSS    -------------------------*/
 .main-contact{
     padding: 0;
@@ -224,6 +250,16 @@ textarea{
 }
 
 
+#container{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+
+
 /*----------------------------------------------------------   STATS CSS ---------------------------------*/
  
 
@@ -261,3 +297,30 @@ textarea{
 .header-detail, .container-detail, .bg{
     background-color: black;
 }
+
+/*----------------------------------------------CAMBIOS MENU NAV HAMBURGUESA -------------------*/
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#menu, #menu-check{
+    display: none;
+}
+
+
+/*----------------------------------- CORRECCIONES --------------------------------*/
+.header-corrected{
+    height: 15vh;
+}
+
+.main-corrected{
+    height: 80vh;
+}
+
+.footer-corrected{
+    height: 5vh;
+}
+
